@@ -5,6 +5,6 @@
 
 # The museum project focuse on using the A* Pathfinding Algorithm to help the black figure in the program find the "art" piece inside the "museum" irrespective of his current location.
 
-# More details for each project can be found in their Project_Info folder. The project report(in Brave project) gives a description on the components of the program and how to run the program. Project descriptionives in both projects) gives assignment overview and requirements. 
+# More details for each project can be found in their Project_Info folder. The project report gives a description on the components of the program and how to run the program. Project descriptionives gives assignment overview and requirements. 
 
 # NOTE: Ypu must download Greenfoot in order to run either program. Download link is here https://www.greenfoot.org/download , or search Greenfoot.com.
