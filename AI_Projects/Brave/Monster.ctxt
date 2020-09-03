@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Monster
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Monster\ here.\r\n\ \r\n\ Monster\ the\ child\ encounters\ in\ bedroom.\ How\ much\r\n\ influence\ the\ monster\ has\ is\ determined\ by\ toleranceFactor\r\n\ property.\r\n\ \r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Monster\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment2.params=monsterRoar\ monsterImg
+comment2.target=Monster(java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ Creates\ a\ monster\ with\ a\ roar\ and\ scale\ image\r\n\ \r\n
+comment3.params=
+comment3.target=void\ setMonsterImage()
+comment3.text=\r\n\ Sets\ image\r\n\ \r\n
+comment4.params=play
+comment4.target=void\ playSound(boolean)
+comment4.text=\r\n\ Plays\ sound\ byte\ if\ play\ is\ true\r\n\ \r\n
+comment5.params=
+comment5.target=void\ removeImage()
+comment5.text=\r\n\ Removes\ monster\ image\ and\ replace\ with\ scale\ black-background\r\n\ \r\n
+comment6.params=
+comment6.target=double\ getFactor()
+comment7.params=
+comment7.target=void\ decreaseFactor()
+comment7.text=\r\n\ Decreases\ toleranceFactor\ by\ 0.1\ as\ long\ as\ its\ greather\ then\ 0\r\n\ \r\n
+comment8.params=
+comment8.target=void\ increaseFactor()
+comment8.text=\r\n\ Increses\ toleranceFactor\ by\ 0.1\ as\ long\ as\ its\ less\ then\ 1\r\n\ \r\n
+numComments=9

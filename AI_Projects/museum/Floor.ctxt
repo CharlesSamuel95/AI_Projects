@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Floor
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Wall\ here.\r\n\ \r\n\ Each\ Floor\ will\ have\ a\ score\ and\ reference\ to\ their\ parent\ Floor.\ The\ class\ consist\ of\r\n\ getters\ and\ setters\ to\ access\ steps,\ heuristic,\ score\ and\ parentFloor.\ All\ Floor's\r\n\ are\ sorted\ by\ their\ score\ in\ ascending\ order.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Wall\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment10.params=floor
+comment10.target=int\ compareTo(Floor)
+comment2.params=
+comment2.target=Floor\ getParent()
+comment3.params=
+comment3.target=int\ getSteps()
+comment4.params=
+comment4.target=int\ getHeuristic()
+comment5.params=
+comment5.target=int\ getScore()
+comment6.params=parent
+comment6.target=void\ setParent(Floor)
+comment7.params=steps
+comment7.target=void\ setSteps(int)
+comment8.params=heuristic
+comment8.target=void\ setHeuristic(int)
+comment9.params=steps\ heuristic
+comment9.target=void\ setScore(int,\ int)
+numComments=11

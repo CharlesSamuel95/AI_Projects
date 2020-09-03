@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Button
+comment0.text=\r\n\ Button\:\ Provides\ common\ properties\ and\ methodes\ for\ all\ button\ images\ \r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ Dose\ nothing\r\n\ \r\n
+comment2.params=img
+comment2.target=Button(java.lang.String)
+comment2.text=\r\n\ Constructs\ and\ set\ image\r\n\ \r\n
+comment3.params=
+comment3.target=boolean\ isClicked()
+comment3.text=\r\n\ Checks\ if\ image\ has\ been\ clicked\r\n\ \r\n
+comment4.params=hasClicked
+comment4.target=void\ setClick(boolean)
+comment4.text=\r\n\ Changes\ clicked\ value\r\n\ \r\n
+numComments=5

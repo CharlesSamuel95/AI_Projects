@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Lightning
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Lightning\ here.\r\n\ \r\n\ Class\ controls\ how\ and\ when\ the\ lightning\ gif\ is\ played\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ If\ play\ is\ true\ then\ it\ will\ cycle\ through\ lightning\ images\ once\r\n
+comment2.params=
+comment2.target=Lightning()
+comment2.text=\r\n\ Creates\ lightning\ gif\ and\ scales\ them\ \r\n\ Sets\ a\ black-background\ and\ stores\ the\ first\ lightning\ image\ \r\n\ into\ imgOne.\r\n\r\n\ \r\n
+comment3.params=p
+comment3.target=void\ playGif(boolean)
+comment3.text=\r\n\ Set\ value\ of\ play.\ This\ determines\ if\ the\ gif\ plays\r\n\ \r\n\ \r\n
+comment4.params=
+comment4.target=void\ cycleThroughImages()
+comment4.text=\r\n\ Loops\ through\ the\ gif\ image\ once.\r\n\ This\ insures\ the\ lightning\ gif\ only\ plays\ once\r\n\ \r\n
+comment5.params=gif
+comment5.target=GifImage\ scaleGif(GifImage)
+comment5.text=\r\n\ Scales\ each\ gif\ image\r\n\ \r\n\ \r\n
+numComments=6

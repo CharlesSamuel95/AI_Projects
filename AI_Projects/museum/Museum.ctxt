@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Museum
+comment0.text=\r\nThis\ class\ executes\ the\ A*\ algorithm\ and\ populates\ the\ world\ with\ actors.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Museum()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Museum.\r\n\ Populates\ the\ world\ and\ sets\ dimensions.\r\n
+comment2.params=file
+comment2.target=void\ populate(java.lang.String)
+comment2.text=\r\n\ Populates\ world\ with\ Wall,\ Floor,\ Art,\ and\ sets\ Bill\ at\ starting\ location\r\n
+comment3.params=dest
+comment3.target=void\ aStar(Art)
+comment3.text=\ The\ A*\ method\ is\ called\ when\ a\ art\ object\ is\ clcked\ on.\ It\ examines\ a\ Floor\ object\r\n\ with\ the\ smallest\ score\ and\ checks\ the\ adjacent\ Floor\ objects,\ calls\ a\ method\ to\r\n\ calculate\ its\ score,\ and\ adds\ it\ to\ openList.\ It\ accepts\ a\ Art\ object\ which\ will\r\n\ be\ used\ to\ get\ the\ Floor\ object\ at\ dest's\ (destination)\ location\r\n
+comment4.params=object\ parentFloor
+comment4.target=void\ checkAdjacentSpace(java.util.List,\ Floor)
+comment4.text=\r\n\ Checks\ if\ the\ object\ is\ a\ Wall,\ Floor,\ or\ Art.\ If\ object.get(0)\ is\ an\ Art\ object\r\n\ then\ floorIndex\ will\ be\ 1,\ else\ it\ will\ be\ 0.\ (The\ method\ World.getObjectsAt()\r\n\ will\ return\ a\ list\ of\ all\ objects\ at\ some\ location,\ so\ I\ needed\ to\ check\ which\ index\r\n\ contains\ the\ Art\ object\ so\ I\ could\ avoid\ it).\r\n\ \r\n\ It\ then\ checks\ if\ object.get(floorIndex)\ is\ a\ Floor\ object\ that\ is\ not\ in\ openList\r\n\ and\ closeList.\ If\ not\ it\ sets\ parentFloor\ as\ its\ parent,\ calculates\ its\ score,\ and\r\n\ adds\ to\ openList.\r\n
+comment5.params=parent\ startLocl
+comment5.target=int\ calculateSteps(Floor,\ Floor)
+comment5.text=\r\n\ The\ Floor's\ parent\ and\ startLocal\ is\ passed.\ If\ the\ parents\ location\ is\ equal\ to\r\n\ startLocal's,\ then\ return\ 1,\ else\ it\ performs\ a\ recursive\ call\ that\ receives\r\n\ the\ parent\ Floor's\ parent\ and\ startLocal,\ and\ adds\ 1\ to\ whatever\ it\ returns.\r\n
+comment6.params=x\ y\ dest
+comment6.target=int\ calculateHeuristic(int,\ int,\ Floor)
+comment6.text=\r\n\ Receives\ x\ and\ y\ coordinate\ of\ a\ Floor\ object\ and\ the\ dest\ Floor.\ If\ x\ and\ y\ equal\r\n\ dest\ location\ then\ return\ 0,\ else\ increment/decrement\ x\ and\ y\ until\ they\ equal.\ \r\n\ Finally,\ recursively\ call\ method\ with\ updated\ x\ and\ y,\ and\ dest.\ Add\ 1\ to\ whatever\r\n\ the\ method\ returns.\r\n
+numComments=7

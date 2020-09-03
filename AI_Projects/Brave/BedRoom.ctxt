@@ -1,0 +1,29 @@
+#BlueJ class context
+comment0.target=BedRoom
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ MyWorld\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=BedRoom()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ MyWorld.\r\n\ \r\n
+comment2.params=
+comment2.target=void\ act()
+comment3.params=w
+comment3.target=double\ initializeNeuroNet(double[][])
+comment3.text=\ Initialize\ neuro\ network\ and\ threshold\ with\ random\ values\ between\ 0.0(incl)\ and\ 1.0(excl)\ \r\n
+comment4.params=w\ tempW\ theta\ x
+comment4.target=void\ neuronOutput(double[][],\ double[][],\ double,\ double[])
+comment4.text=Produces\ the\ output\ of\ neuro\ net\ and\ updates\ weights.\r\n\ w\:\ neruoNet\r\n\ tempW\:\ neruoNetCopy\r\n\ theta\:\ threshold\r\n\ x\:\ input\r\n
+comment5.params=w
+comment5.target=double[][]\ copyArray(double[][])
+comment5.text=\r\n\ Copies\ and\ returns\ array\ w\r\n
+comment6.params=w\ scalar
+comment6.target=double[][]\ matrixMultipication(double[][],\ double)
+comment6.text=\r\n\ Multiplies\ an\ array\ with\ a\ scalar\r\n
+comment7.params=num
+comment7.target=int\ stepFunction(double)
+comment8.params=x
+comment8.target=double[][]\ tranpose(double[])
+comment8.text=\r\n\ Tranposes\ and\ returns\ array\ X\r\n
+comment9.params=w\ x\ operatorController
+comment9.target=double[][]\ additionSubtractMatrix(double[][],\ double[][],\ int)
+comment9.text=\r\n\ Preforms\ matrix\ addition(if\ operatorController\ \=\ 0)\ or\ subtraction\r\n
+numComments=10
